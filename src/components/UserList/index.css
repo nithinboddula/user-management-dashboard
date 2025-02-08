@@ -1,0 +1,80 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  min-width: 100px;
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.table-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: sans-serif;
+  height: 100vh;
+  padding: 20px;
+  font-size: 16px;
+}
+.heading {
+  font-size: 30px;
+  color: grey;
+  font-weight: 600;
+
+  text-align: center;
+}
+.create-btn {
+  align-self: flex-end;
+  margin-bottom: 5px;
+}
+.pen {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.delete {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.view {
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.course-id {
+  width: 80px;
+}
+
+.course-name {
+  width: 200px;
+}
+
+.description {
+  width: 300px;
+}
+
+.instructor-name {
+  width: 150px;
+}
+
+.price {
+  width: 80px;
+}
+
+.action {
+  width: 100px;
+}

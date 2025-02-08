@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.input {
+  width: 300px;
+  height: 25px;
+  border: 1px solid orange;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.text-area {
+  border: 1px solid orange;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.is-invalid {
+  border-color: red; /* Or any other styling you prefer */
+}
+
+.invalid-feedback {
+  color: red;
+  font-size: 14px;
+}
